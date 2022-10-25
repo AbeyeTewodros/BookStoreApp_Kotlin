@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ImageView
+        android:id="@+id/imgabout"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:src="@drawable/book_app_icon_web"/>
+
+    <TextView
+        android:id="@+id/txtabout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Project Consists of many Concepts in the Android Development. I Will Specify What I used in this Project:-"
+        android:layout_below="@+id/imgabout"/>
+
+    <TextView
+        android:id="@+id/txtdet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtabout"
+        android:layout_marginTop="20dp"
+        android:text="   UI is made Using XML"
+        android:drawableLeft="@drawable/bulletimage"/>
+
+    <TextView
+        android:id="@+id/txtdetone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdet"
+        android:layout_marginTop="20dp"
+        android:text="   Concepts of Various Layouts in XML"
+        android:drawableLeft="@drawable/bulletimage"/>
+
+    <TextView
+        android:id="@+id/txtdettwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdetone"
+        android:layout_marginTop="20dp"
+        android:text="   Fragments"
+        android:drawableLeft="@drawable/bulletimage"/>
+
+    <TextView
+        android:id="@+id/txtdetthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdettwo"
+        android:layout_marginTop="20dp"
+        android:text="   Recycler methods"
+        android:drawableLeft="@drawable/bulletimage"/>
+
+    <TextView
+        android:id="@+id/txtdetfour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdetthree"
+        android:layout_marginTop="20dp"
+        android:text="   Database for storing books"
+        android:drawableLeft="@drawable/bulletimage"/>
+
+    <TextView
+        android:id="@+id/txtdetfive"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdetfour"
+        android:layout_marginTop="20dp"
+        android:text="   Uses API"
+        android:drawableLeft="@drawable/bulletimage"/>
+
+    <TextView
+        android:id="@+id/aboutFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="This Project is an Internshala Project for the course Android Development Using Kotlin"
+        android:textSize="15sp"
+        android:padding="10dp"
+        android:layout_alignParentBottom="true"/>
+
+</RelativeLayout>

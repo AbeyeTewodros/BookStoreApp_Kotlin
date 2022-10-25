@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<group android:checkableBehavior="single">
+    <item
+        android:icon="@drawable/ic_dashboard"
+        android:id="@+id/dashboard"
+        android:title="Dashboard"/>
+
+    <item
+        android:icon="@drawable/ic_favorites"
+        android:id="@+id/fav"
+        android:title="Favorites"/>
+
+    <item
+        android:icon="@drawable/ic_contact"
+        android:id="@+id/contact"
+        android:title="Contact"/>
+
+    <item
+        android:icon="@drawable/ic_about"
+        android:id="@+id/about"
+        android:title="about"/>
+</group>
+</menu>

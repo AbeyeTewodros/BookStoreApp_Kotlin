@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/black">
+
+    <ImageView
+        android:id="@+id/imgnav"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/abeye"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/txtnav"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:fontFamily="@font/dancingscript_regular"
+        android:text="Book Store"
+        android:textColor="#ffffff"
+        android:textSize="23sp"
+        android:layout_below="@+id/imgnav"/>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="125dp"
+        android:padding="10dp"
+        android:fontFamily="@font/dancingscript_regular"
+        android:text="Abeye Tewodros"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/txtemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:layout_marginLeft="125dp"
+        android:padding="10dp"
+        android:fontFamily="@font/dancingscript_regular"
+        android:text="Abeyetd2@gmail.com"
+        android:textColor="#ffffff"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>

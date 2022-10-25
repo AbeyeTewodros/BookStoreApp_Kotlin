@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.ContactFragment"
+    android:background="#4FF4F4F4">
+
+    <ImageView
+        android:id="@+id/imgmoreandroid"
+        android:layout_width="wrap_content"
+        android:layout_height="175dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:cropToPadding="false"
+        android:src="@drawable/abeye"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/txtmorname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Abeye Tewodros"
+        android:textColor="@color/black"
+        android:layout_marginTop="20dp"
+        android:textSize="30sp"
+        android:fontFamily="@font/dancingscript_bold"
+        android:layout_below="@+id/imgmoreandroid"
+        android:layout_centerHorizontal="true"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="50dp"
+        android:layout_below="@+id/txtmorname"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="400dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#95000000">
+
+            <LinearLayout
+                android:id="@+id/linkedin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp">
+
+                <ImageView
+                    android:id="@+id/imglink"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/link" />
+
+
+                <TextView
+                    android:id="@+id/txtmorlink"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="31dp"
+                    android:text="Linked In"
+                    android:fontFamily="@font/dancingscript_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btnlinkedin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="24dp"
+                    android:hint="View"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/insta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linkedin"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/imginsta"
+                    android:layout_width="35dp"
+                    android:layout_height="50dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/insta" />
+
+
+                <TextView
+                    android:id="@+id/txtinsta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="31dp"
+                    android:text="Insta:        "
+                    android:fontFamily="@font/dancingscript_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btninsta"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="24dp"
+                    android:hint="View"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/github"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/insta"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/imggit"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/git" />
+
+
+                <TextView
+                    android:id="@+id/txtmorgit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="31dp"
+                    android:text="Github:     "
+                    android:fontFamily="@font/dancingscript_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btngithub"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="24dp"
+                    android:hint="View"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/telegram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/github"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:id="@+id/imgtelegram"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/tele" />
+
+
+                <TextView
+                    android:id="@+id/txtmortelegram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="31dp"
+                    android:text="Telegram:  "
+                    android:fontFamily="@font/dancingscript_bold"
+                    android:textColor="@color/black"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/btntelegram"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="23dp"
+                    android:layout_marginTop="24dp"
+                    android:hint="View"
+                    android:textColorHint="@color/white" />
+            </LinearLayout>
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
